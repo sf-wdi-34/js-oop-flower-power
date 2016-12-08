@@ -428,7 +428,7 @@ var rily = Flower.crossPollinate(rose, lily);
 <img src="https://cloud.githubusercontent.com/assets/3254910/17948758/fe31c9e4-6a06-11e6-8c59-c68d975c02a8.png" alt="flower vase image from homeheavenimages on flickr" width=80%>
 
 
-1. Create a vase object which contains an array of flower objects and a `capacity` attribute that says how many flowers the vase can hold.
+1. Create a `Vase` object which contains an array of flower objects. It should have a `capacity` attribute that says how many flowers the vase can hold.
 
   <details><summary>sample solution</summary>
    ```js
