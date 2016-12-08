@@ -1,9 +1,5 @@
 # <img src="https://cloud.githubusercontent.com/assets/7833470/10423298/ea833a68-7079-11e5-84f8-0a925ab96893.png" width="60"> JavaScript Prototypal Inheritance
 
-| Objective |
-| :--- |
-| Use JavaScript prototypes to implement inheritance between objects |
-
 ## Review: Constructors & Prototypes
 
 In JavaScript, we don't have classes, so we use constructor functions and prototypes to create them. Prototypes are the building blocks of objects. When we create a new "class", we can attach attributes and methods to the prototype (as a better alternative to adding them in the constructor function to save memory).
@@ -192,15 +188,11 @@ Read about the difference between `instanceof` and `isPrototypeOf` on <a href="h
 
 ## Challenges
 
-*Use the Chrome JavaScript console or a snippet for challenges 1-5.*
-
-1. Create an `Animal` constructor with the properties `name`, `age`, `color`, and `sound`.
-2. Animals should have a method called `speak` which outputs the `sound` they make.
-3. Create a `Cat` constructor with the same properties as `Animal` (bonus if you use the `call` method). Cats should also have a property called `isFluffy`.
-4. Implement prototypal inheritance with `Cat` as a subclass of `Animal`.
-5. Create a new instance of `Cat` and make them speak!
-6. Check if the cat you just created is an `instanceof` `Cat`. How about an `instanceof` `Animal`?
-7. Start <a href="https://github.com/sf-wdi-24/apartment-oop" target="_blank">tonight's homework</a>!
+1. Create an `Plant` constructor, and give it some of the properties you originally had in your `Flower` constructor.
+3. Create a `Tree` constructor with the same properties as `Plant` (bonus if you use the `call` method). Trees should also have a property called `isHardwood`.
+4. Implement prototypal inheritance with `Tree` as a subclass of `Plant`.
+5. Create a new instance of `Tree`!
+6. Check if the tree you just created is an `instanceof` `Tree`. How about an `instanceof` `Plant`?
 
 ## Resources
 
